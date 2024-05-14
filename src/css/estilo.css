@@ -1,0 +1,11 @@
+
+header{
+    animation: voar;
+    transition: 2s;
+}
+
+@keyframes voar{
+    header{
+        position: translateX(200px);
+    }
+}
